@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ivPahlawan"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ahmad_dahlan"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvJudul"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahmad Dahlan"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/tvDeskrip"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Salah seorang ulama dan khatib terkemuka di Masjid Besar Kasultanan Yogyakarta pada masa itu, dan ibu dari K.H. Ahmad Dahlan adalah puteri dari H. Ibrahim yang juga menjabat penghulu Kesultanan Ngayogyakarta Hadiningrat pada masa itu. KH. Ahmad Dahlan telah mempelopori kebangkitan ummat Islam untuk menyadari nasibnya sebagai bangsa terjajah yang masih harus belajar dan berbuat."
+                android:textSize="10sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
